@@ -9,6 +9,6 @@ const backend = defineBackend({
 
 backend.auth.resources.userPool.addDomain('cognito-domain', {
   cognitoDomain: {
-    domainPrefix: 'dev-torenken-domain-github',
+    domainPrefix: 'torenken-github',
   }
 })
